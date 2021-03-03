@@ -1,19 +1,24 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.26403.3
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Conduit", "src\Conduit\Conduit.csproj", "{BFC1306F-9EBF-414C-8656-C50E3E5AFADA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Conduit", "src\Conduit\Conduit.csproj", "{BFC1306F-9EBF-414C-8656-C50E3E5AFADA}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{7C288D93-2148-4679-9890-DBFCA0C59BCC}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{9F832627-4D82-4B5B-84A7-244E8480845E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Conduit.IntegrationTests", "tests\Conduit.IntegrationTests\Conduit.IntegrationTests.csproj", "{CFFDDBF0-5CDD-4D88-A82B-68CBF2432999}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Conduit.IntegrationTests", "tests\Conduit.IntegrationTests\Conduit.IntegrationTests.csproj", "{CFFDDBF0-5CDD-4D88-A82B-68CBF2432999}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "build", "build\build.csproj", "{1A67215E-3B6F-4FDA-AB9B-D2ECDC676A29}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "build", "build\build.csproj", "{1A67215E-3B6F-4FDA-AB9B-D2ECDC676A29}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Documentation", "Documentation\Documentation.shproj", "{B17D548E-3078-45A7-8063-455E06BD74CC}"
 EndProject
 Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		Documentation\Documentation.projitems*{b17d548e-3078-45a7-8063-455e06bd74cc}*SharedItemsImports = 13
+	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
@@ -38,5 +43,8 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{BFC1306F-9EBF-414C-8656-C50E3E5AFADA} = {7C288D93-2148-4679-9890-DBFCA0C59BCC}
 		{CFFDDBF0-5CDD-4D88-A82B-68CBF2432999} = {9F832627-4D82-4B5B-84A7-244E8480845E}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B7294E47-A0EC-46ED-921A-8772707CA3FF}
 	EndGlobalSection
 EndGlobal
